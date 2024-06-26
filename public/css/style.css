@@ -1,0 +1,418 @@
+* {
+   
+    color: #1b1b1b;
+    text-decoration: none;
+    margin:  0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto";
+    font-size: 12p;
+ 
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: left;
+
+}
+nav ul li{
+    margin-bottom: 1%;
+    margin-left: 1%;
+
+}
+body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background-color: #EAC926;;
+}
+
+.titular{
+font-size: 24px;
+color: #666;
+padding: 15px;
+
+
+}
+
+.logo-busqueda{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.precio{
+    height: 30%;
+    font-size: 18px;
+}
+.descuento{
+    color:#35B94F;
+    font-size: 16;
+}
+
+.descripcion{
+    display: flex;
+    justify-content: flex-start;
+    align-self: flex-end;
+    font-size: 16;
+    color: #666;
+    
+}
+
+
+
+.busqueda {
+    display: flex;
+    align-items: baseline;
+    width: 30%;
+    height: 45px;
+    max-width: 600px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.search-input {
+    flex: 1;
+    margin-right: 5px;
+    height: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+}
+
+.boton {
+    padding: 10px;
+    font-size: 16px;
+    
+    color: white;
+    border: none;
+    cursor: pointer;
+  
+    border-radius: 0 4px 4px 0;
+    
+    
+}
+
+.boton i {
+    font-size: 16px;
+}
+
+.boton:hover {
+    background-color: #0056b3;
+}
+
+
+
+.logo{
+    width: 20%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    margin-left:2%;
+
+}
+
+#burger{
+    text-align: center;
+    color: white;
+    text-align: center;
+    background-color:#1259c3;
+    border-radius: 3px;
+    width: 27px;
+
+
+}
+.burger-menu{
+    text-align: center;
+}
+
+img{
+    
+    width: 100%;
+    
+}
+.banner{
+    height: 100%;
+}
+
+footer{
+    display:flex;
+    flex-direction: row;
+    background-color:white;
+    padding-top: 15px;
+}
+footer article{
+    
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+footer article:hover i{
+    color: #00e759;
+    font-size: 3rem;
+}
+article i{
+    color: #1259c3;
+    font-size: 2rem;
+}
+.Copyright{
+    text-align: center;
+    background-color: white;
+}
+
+.proData{
+    display: flex;
+    flex-wrap: wrap;
+
+    width: 100%;
+    padding-bottom: 2%;
+    position: relative;
+}
+
+main {
+    width: 90vw;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+main section article{
+    margin-bottom: 10px;
+}
+
+main{
+    width: 100%;
+    background-color: #EBEBEB;
+    padding: 5%;
+  
+
+}
+
+.producto{
+   background-color: white;
+   
+   flex: 1 1 calc(50% - 10px);
+   
+   padding-bottom: 15px;
+   
+}
+
+.producto:hover{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+
+}
+
+
+.producto p{
+    margin-left: 15px;
+
+ }
+ 
+
+.producto img{
+    border-bottom: 2px solid #EBEBEB;
+   background-color: aquamarine;
+}
+
+.camion{
+  
+    margin-bottom: 20px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    
+    position: absolute;
+    right: 20px;
+    top: -15px;
+    transition: transform 0.3s ease; /* Añadido para la transición suave */
+}
+.camion i{
+    display: block;
+    font-size: 16px;
+    
+    color: #35B94F;
+    height: 5px;
+}
+  
+ 
+ .camion:hover{
+    transform: rotate(-90deg); 
+}
+ .navG {
+    display: flex;
+    justify-content: space-around ;
+    align-items: center;
+    padding: 10px; 
+    
+
+}
+
+
+.nav1, .nav2 {
+    display: flex;
+    width: 50%;
+    padding-right: 25px;
+    list-style-type: none;
+}
+.nav2{
+    display: flex;
+    justify-content: flex-end;
+}
+.navbar__item{
+    margin-left: 25px;
+}
+
+/* Fomularios */
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+input[type="text"], input[type="email"], input[type="date"], input[type="password"], textarea, select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+input[type="file"] {
+    margin-top: 10px;
+}
+.checkbox-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 5px;
+}
+.checkbox-group label {
+    display: flex;
+    align-items: center;
+}
+.checkbox-group input[type="checkbox"] {
+    margin-right: 5px;
+}
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.buttons button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.buttons button[type="submit"] {
+    background-color: #28a745;
+    color: #fff;
+}
+.buttons:hover button{
+    background-color: #0022AA;
+}
+
+.buttons button[type="reset"] {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.error {
+    color:  gray;
+    display: none;
+    font-size: 0.9em;
+    margin-top: 5px;
+    opacity: 50%;
+}
+
+input:invalid {
+    border-color: gray;
+}
+
+input:invalid + .error {
+    display: block;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+
+/* Mobile devices */
+@media (max-width: 360px) {
+    .descripcion {
+        display: none;
+    }
+    .navG{
+        display: none;
+    }
+    header p{
+        margin:5% 5% 4% 20%;
+    }
+    .search-container{
+        width: 100%;
+        
+    }
+    .burger-menu{
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    .producto {
+        flex: 1 1 calc(100% - 10px);
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    footer{
+        display:flex;
+        flex-direction: column;
+    }
+    
+    
+}
+
+
+ 
+
+@media (max-width: 760px) {
+    .navG {
+        display: none; /
+    }
+}
+
+ /* Desktop and above */
+ @media (min-width: 769px) {
+    .producto{
+        
+        flex: 1 1 calc(25% - 10px); 
+    }
+
+    .producto:hover{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+       
+        
+    }
+     .burger-menu{
+        display: none;
+    }
+
+    .descripcion{
+        display: none;
+    }
+    .producto:hover .descripcion{
+        display: block;
+    }
+    header p{
+        margin-right: 25px;
+    }
+}
+
+
+
+
+
+
+
